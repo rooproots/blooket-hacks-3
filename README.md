@@ -6,3 +6,4 @@ const newCryptoAmount = 1000;
 
 // Update the crypto amount in Local Storage
 localStorage.setItem('crypto', newCryptoAmount);
+this uses javascript and this is gamemode crytpo hack
