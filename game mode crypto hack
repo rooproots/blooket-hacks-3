@@ -1,0 +1,8 @@
+// Solution using Browser Console to hack Blooket Crypto
+// This code snippet allows you to modify the crypto amount directly from the browser console
+
+// Find the element that displays the crypto amount
+const cryptoElement = document.querySelector('.crypto-amount');
+
+// Update the displayed crypto amount
+cryptoElement.innerText = '9999'; // Set crypto amount to 9999
