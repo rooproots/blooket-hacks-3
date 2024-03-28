@@ -1,0 +1,14 @@
+// Solution using Cheat Engine to hack Blooket Crypto
+// This code snippet demonstrates how to modify the crypto amount using Cheat Engine
+
+// Find the memory address of the crypto amount in Blooket
+const cryptoAddress = '0x12345678'; // Example memory address
+
+// Update the crypto amount using Cheat Engine
+function hackCrypto(newAmount) {
+    // Write the new amount to the memory address
+    memory.write(cryptoAddress, newAmount);
+}
+
+// Usage
+hackCrypto(5000); // Set crypto amount to 5000
